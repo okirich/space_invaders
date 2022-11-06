@@ -15,7 +15,7 @@ class GameSprite(sprite.Sprite):
     def reset(self):
         window.blit(self.image,(self.rect.x,self.rect.y))
 
-class Player(GameSprite):
+class Player(GameSprite): # какой нибудь комментарий
 
     to_reload = 5 #количество выстрелов до перезарядки
     fired = 0 #колличество произведенных выстрелов
